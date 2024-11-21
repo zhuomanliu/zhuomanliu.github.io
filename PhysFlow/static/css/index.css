@@ -155,3 +155,35 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+
+.item-vert {
+  height: 250px; /* 设置统一的高度 */
+  /* width: 140px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* 防止溢出 */
+}
+
+.item-vert video {
+  height: 100%; /* 视频高度填充父容器 */
+  width: auto; /* 保持视频宽高比 */
+  object-fit: cover; /* 确保内容覆盖父容器 */
+  align-items: center;
+}
+
+
+.item-kitchen {
+  height: 250px; /* 设置统一的高度 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* 防止溢出 */
+}
+
+.item-kitchen video {
+  height: 100%; /* 视频高度填充父容器 */
+  width: auto; /* 保持视频宽高比 */
+  object-fit: cover; /* 确保内容覆盖父容器 */
+}
