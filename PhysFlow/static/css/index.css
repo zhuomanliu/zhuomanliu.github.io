@@ -187,3 +187,16 @@ body {
   width: auto; /* 保持视频宽高比 */
   object-fit: cover; /* 确保内容覆盖父容器 */
 }
+
+.carousel-video {
+  display: block;
+  margin: auto;
+  max-height: 100%; /* Ensure the video fits within the container */
+  max-width: 100%;
+}
+
+.carousel {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
