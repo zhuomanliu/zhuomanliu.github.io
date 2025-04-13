@@ -200,3 +200,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.phys-yellowgreen {
+  background: linear-gradient(to right, #ffe600, #00c853); /* 黄 → 绿 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.flow-greenblue {
+  background: linear-gradient(to right, #00c853, #2979ff); /* 绿 → 蓝 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
